@@ -1,0 +1,96 @@
+.guest-card {
+    background: #DEF2F1;
+    border-radius: 5px;
+    border: 1px solid #333;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.10);
+    gap: 15px;
+    margin: 2px;
+    padding: 5px;
+}
+
+.card-head {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    font-size: 14px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-body span,
+.card-body i {
+    font-size: 14px;
+}
+
+span.confirm {
+    text-align: left;
+}
+
+label.diet {
+    background-color: #F2F2F2;
+    border-radius: 6px;
+    border: 1px solid #F2F2F2;
+    text-align: center;
+    width: 110px;
+}
+
+label.Vegan {
+    background-color: #3B945E;
+    border: 1px solid #3B945E;
+    color: #FEFFFF;
+}
+
+label.Vegetarian {
+    background-color: #57BA98;
+    border: 1px solid #57BA98;
+    color: #FEFFFF;
+
+}
+
+label.Non-Veg {
+    background-color: #A1C3D1;
+    border: 1px solid #A1C3D1;
+
+}
+
+div.btn-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 40%;
+    margin: 0 auto;
+    gap: 5px;
+}
+
+div.btn-options button {
+    background: #2B7A78;
+    border: 0;
+    border-radius: 3px;
+    color: #FEFFFF;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    transition: background 0.4s;
+}
+
+div.btn-options button.btn-edit:hover {
+    background-color: #256079;
+}
+
+div.btn-options button.btn-remove:hover {
+    background-color: #a54659
+}
+
+
+.contact-mail {
+    margin-bottom: 10px;
+}
+
+.contact-phone .fas {
+    margin-right: 5px;
+}
+
+.contact-mail .fas {
+    margin-right: 5px;
+}

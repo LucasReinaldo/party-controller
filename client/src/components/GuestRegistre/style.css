@@ -1,0 +1,18 @@
+.invitation-form {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 0 auto;
+}
+
+.invitation-form p {
+    margin: 10px 0 10px 0;
+}
+
+.guest-options .label-option {
+    margin-right: 10px;
+}
+
+input.input-checkbox {
+    margin-left: 5px;
+}

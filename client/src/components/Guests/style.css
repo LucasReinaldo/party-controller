@@ -1,0 +1,13 @@
+.guests {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.guest-table {
+    align-content: center;
+    display: grid;
+}
+
+.guests-card {
+    flex: 1;
+}

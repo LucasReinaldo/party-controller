@@ -1,0 +1,15 @@
+.homepage {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+}
+
+.homepage i {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px;
+}

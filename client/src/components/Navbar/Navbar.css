@@ -1,0 +1,129 @@
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+    width: 200px;
+    height: 100%;
+    background: #3AAFA9;
+    padding: 20px 0px;
+    position: fixed;
+}
+
+.wrapper .sidebar .brand a {
+    align-content: center;
+    justify-content: center;
+    color: #FEFFFF;
+    display: flex;
+    font-size: 18px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.wrapper .sidebar .brand i {
+    align-items: center;
+    margin: 5px;
+}
+
+.wrapper .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid #FEFFFF;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid #ffffff0d;
+}
+
+.wrapper .sidebar ul li a {
+    color: #FEFFFF;
+    display: block;
+}
+
+.wrapper .sidebar ul li a .fas {
+    width: 25px;
+}
+
+.wrapper .sidebar ul li:hover {
+    background-color: #2B7A78;
+}
+
+.wrapper .sidebar ul li:hover a {
+    color: #FEFFFF;
+}
+
+.wrapper .sidebar .social_media {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.wrapper .sidebar .social_media a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    color: #FEFFFF;
+    border-radius: 5px;
+    transition: background 0.2s;
+}
+
+.wrapper .sidebar .social_media a:hover {
+    background-color: #2B7A78;
+    color: #FEFFFF;
+}
+
+.wrapper .main_content {
+    width: 100%;
+    margin-left: 200px;
+}
+
+.wrapper .main_content .header {
+    display: flex;
+    padding: 15px;
+    background: #FEFFFF;
+    color: #717171;
+    border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info {
+    margin: 20px;
+    color: #717171;
+    line-height: 25px;
+}
+
+.wrapper .main_content .info div {
+    margin-bottom: 20px;
+}
+
+.guests-info {
+    display: grid;
+    margin-top: 15px;
+}
+
+ul.guests-card {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    margin-top: 15px;
+}
+
+.guests-options {
+    display: grid;
+    align-items: center;
+}
+
+.guests-search {
+    margin: 0 auto;
+}
+
+@media (max-height: 500px) {
+    .social_media {
+        display: none !important;
+    }
+}
